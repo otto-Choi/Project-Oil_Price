@@ -23,14 +23,16 @@
 │   └── dataset_v28.csv
 │
 ├── notebooks/
-│   ├── notebooks/README.md                 # 노트북별 실행 순서 및 설명
+│   ├── notebooks/README.md             # 노트북 디렉토리 및 파일별 설명
 │   ├── 01_가설검증_0330.ipynb          # 분쟁 데이터 분류, 결측치 보완, 상관분석
-│   ├── 02_modeling_v4.ipynb            # 분위 회귀 & LightGBM Quantile
-│   ├── 03_modeling_v9.ipynb            # GARCH-X Monte Carlo 최종 통합본 (v9)
-│   └── 04_integrated_analysis.ipynb    # 분석 과정 총 통합본
+│   ├── 02_1_middle_east_eda_otto       # 중동 분쟁 이벤트 데이터셋(ACLED) EDA
+│   ├── 02_1_middle_east_eda_teammate   # 중동 분쟁 이벤트 데이터셋(ACLED) EDA
+│   ├── 03_modeling_v4.ipynb            # 분위 회귀 & LightGBM Quantile
+│   ├── 04_modeling_v9.ipynb            # GARCH-X Monte Carlo 최종 통합본 (v9)
+│   └── 05_integrated_analysis.ipynb    # 분석 과정 총 통합본
 │
 ├── documents/
-│   ├── documents/README.md                 # 문서 디렉토리 설명
+│   ├── documents/README.md             # 문서 디렉토리 설명
 │   ├── 유가_예측_260331.pdf            # 최종 발표 자료
 │   ├── garch_model_evaluation.md       # 모델 선택 근거 및 성능 지표 상세 문서
 │   └── failure_log.md                  # 시행착오 전 과정 기록 (v1~v9)
