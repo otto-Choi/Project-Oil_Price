@@ -16,8 +16,7 @@
 | `04_modeling_v9.ipynb` | GARCH-X Monte Carlo 최종 모델 (V9) | ✅ |
 | `05_integrated_analysis.ipynb` | **전 과정 통합본** — 위 5개 노트북의 핵심 로직을 순서대로 재현 | ✅ |
 
-> `05_integrated_analysis.ipynb`만 실행해도 전체 분석 흐름을 재현할 수 있다.
-> > `05_integrated_analysis.ipynb` 노트북은 `data/dataset_v28.csv`만 있으면 독립 실행 가능하다.  
+> `05_integrated_analysis.ipynb`만 확인해도 전체 분석 흐름을 이해할 수 있다.
 
 ---
 
